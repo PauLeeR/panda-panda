@@ -1,10 +1,13 @@
 body {
     background-color: #302c29;
-    margin: 0;
+    margin: 0 auto;
 }
-
+.osos{
+    overflow: auto;
+    background-color:#a52626;
+}
 ul {
-	display: block;
+    display: block;
     margin: 0;
     padding: 30;
     overflow: hidden;
@@ -19,7 +22,7 @@ ul li {
 }
 
 ul li a {
-	color: white;
+	color: #ffffcc;
     display: inline-block;
     text-align: center;
     padding: 30px;
@@ -27,54 +30,85 @@ ul li a {
     text-decoration: none;
     font-family: "Prompt";
 }
+
 li a:hover {
     background-color: #db3232;
     color: #52277c ;
 }
 
-/*.contenedor_pandas {
-	display: inline-block;
-    text-align: center;
-}*/
-
 .panditas {
-	/*margin-right: 500px;
-	margin-top: 40px;*/
-	display: inline;
-	padding: 40px;
-}
-
-.pic1, .pic2, .pic3, .pic4{
-	display: inline-block;
-	border: 4px solid grey;
-	width: 180px;
-	height: 180px;
-	margin-left: 30px;
-	margin-right: -70px;
-	margin-top: 30px;
-}
-.cerrar{
-	float: left;
-}
-
-.contenedor_info {
+	display: block;
     text-align: center;
+    overflow: auto;
+    width: 100%;
+    margin-left: 150px;
+    margin-top: 20px;
 }
 
-.info {
+.pandita{
     display: inline-block;
-    padding: 15px;
-    background-color: #a52626;
-    color: white;
-    margin-top: 40px;
-    width: 28%;
-    cursor: pointer;
+    float: left;
+    background-color: #302c29;
+    margin-right: 20px;
+    width: 160px;
+    height: 160px;
 }
 
-.info:hover {
-    background-color: #d17b7b;
-	color: #52277c;
-	font-weight: bold;	
+.panda{
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    width: 90%;
+    height: 83%;
+    border: 4px solid grey;
+    margin: 0px;
 }
+ 
+/*#pic1, #pic2, #pic3, #pic4{
+     display: inline-block;
+     float: left;
+     width: 120px;
+     height: 120px;
+     
+ }*/
+.contenedor_info{
+    margin-left: 140px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+.text {
+    color:#ffffcc;
+    display: inline-block;
+    float: left;
+    background-color: #a52626;
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 270px;
+    text-align: center;
+    cursor: pointer; 
+}
+.text:hover {
+    background-color: #d17b7b;
+    color: #52277c;
+    font-weight: bold;  
+}
+
+#left{
+    float: left;
+    margin-left: 120px;
+    width: 35%;
+    text-align: justify;
+    color: #ffffcc;
+}
+#right{
+    float: left;
+    margin-left: 30px;
+    width: 35%;
+    text-align: justify;
+    color: #ffffcc;
+}
+
 
 
